@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bos-client-9093" />
+        <module name="bos-common-9092" />
+        <module name="bos-etcd-9091" />
+        <module name="bos-ilove" />
+        <module name="bos-zookeeper-9090" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bos-client-9093" target="1.8" />
+      <module name="bos-common-9092" target="1.8" />
+      <module name="bos-etcd-9091" target="1.8" />
+      <module name="bos-ilove" target="1.8" />
+      <module name="bos-wechat-9094" target="1.8" />
+      <module name="bos-zookeeper-9090" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bos-client-9093" options="-parameters" />
+      <module name="bos-common-9092" options="-parameters" />
+      <module name="bos-etcd-9091" options="-parameters" />
+      <module name="bos-ilove" options="-parameters" />
+      <module name="bos-zookeeper-9090" options="-parameters" />
+    </option>
+  </component>
+</project>

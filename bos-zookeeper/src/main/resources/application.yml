@@ -1,0 +1,6 @@
+# 注册服务的端口
+server:
+  port: 9090
+spring:
+  application:
+    name: zk-client
