@@ -1,2 +1,5 @@
 server:
   port: 9093
+spring:
+  application:
+    name: bos-client
