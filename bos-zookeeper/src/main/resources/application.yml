@@ -1,6 +1,6 @@
 # 注册服务的端口
 server:
-  port: 9090
+  port: 8080
 spring:
   application:
     name: server-zookeeper
