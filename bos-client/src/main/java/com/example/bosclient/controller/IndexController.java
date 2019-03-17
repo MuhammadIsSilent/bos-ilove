@@ -22,6 +22,7 @@ public class IndexController {
 
    @Autowired
    private IndexHystrixClient indexHystrixClient;
+
    @Autowired
    private IndexFuture indexFuture;
 
@@ -40,15 +41,7 @@ public class IndexController {
 
         CompletableFuture  future =  indexFuture.getIndex();
 
-//        CompletableFuture<String> future = CompletableFuture.supplyAsync(() -> "Hello");
-//
-//        future = future.thenApply(new Function<String, String>() {
-//            @Override
-//            public String apply(String s) {
-//
-//                return s + " World";
-//            }
-//        });
+
 
         return future;
     }
