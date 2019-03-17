@@ -4,4 +4,6 @@ spring:
     zookeeper:
       discovery:
         root: spring-cloud-zookeeper
-      connectString: localhost:2181  # 多节点配置,通过逗号分割192.168.253.31:2181,192.168.253.32:2181
+        register: true
+      connectString: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183  # 多节点配置,通过逗号分割192.168.253.31:2181,192.168.253.32:2181
+      enabled: true
