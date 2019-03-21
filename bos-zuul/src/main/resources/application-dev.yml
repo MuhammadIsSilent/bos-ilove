@@ -1,0 +1,14 @@
+server:
+  port: 9096
+
+zuul:
+  add-host-header: false
+  ribbon:
+    eager-load:
+      enabled: false
+spring:
+  profiles:
+    active: dev
+  application:
+    name: bos-zuul
+

@@ -12,7 +12,7 @@ public class IndexHystrixClientImpl implements IndexHystrixClient {
     @Override
     public String index( String name) {
 
-        logger.info(">>>>>>>>>>>>>>>>>>>>>> fei   client  .................... ");
+        logger.info(">>>>>>>>>>>>>>>>>>>>>>  Hystrix    fei   client  .................... ");
 
         return name;
     }
