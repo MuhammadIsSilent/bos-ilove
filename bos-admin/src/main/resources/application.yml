@@ -1,0 +1,14 @@
+server:
+  port: 8858
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//127.0.0.1:1521/xe
+    password: ljz970407
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: oracle.jdbc.OracleDriver
+    username: system
+
+mybatis-plus:
+  configuration:
+    cache-enabled: true
+#  global-config:

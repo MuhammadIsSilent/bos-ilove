@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: bog-admin
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+      discovery:
+        root: ${spring.application.name}
+
