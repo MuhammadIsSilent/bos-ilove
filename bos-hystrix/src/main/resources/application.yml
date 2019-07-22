@@ -1,7 +1,0 @@
-server:
-  port: 9096
-spring:
-  application:
-    name: bos-hystrix
-
-

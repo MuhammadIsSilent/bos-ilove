@@ -1,8 +1,36 @@
 # 注册服务的端口
 server:
-  port: 8080
+  port: 8081
+
 spring:
+  datasource:
+      name: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
+      url: jdbc:mysql://localhost:3306/ljzadmin?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+      password: 123456
+#    master:
+#        url: jdbc:mysql://localhost:3306/ljzadmin
+#        name: root
+#        password: 123456
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+#        type: com.alibaba.druid.pool.DruidDataSource
+#    slave1:
+#      url: jdbc:mysql://localhost:3306/ljzadmin
+#        name: root
+#        password: 123456
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+#        type: com.zaxxer.hikari.util.DriverDataSource
+#    slave2:
+#        url: jdbc:mysql://localhost:3306/ljzadmin
+#        name: root
+#        password: 123456
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+#        type: com.zaxxer.hikari.util.DriverDataSource
+
+
   application:
     name: server-zookeeper
+
 
 
